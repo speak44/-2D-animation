@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.box{
+	width:60px;
+	height: 60px;
+	border: 2px solid #000;
+	border-radius: 30px;
+	margin: 250px auto;
+	position: relative;
+	transition:4s ease-out;
+}
+.box:hover{
+	transform: rotate(720deg);
+}
+.item{
+	width: 30px;
+	height: 300px;
+	background: #000;
+	border: 1px solid #000;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	position: absolute;
+	
+}
+.c1{
+	transform: rotate(120deg);
+	top: -195px;
+    left: -114px;
+
+}
+.c2{
+	transform: rotate(-120deg);
+	top: -193px;
+    left: 145px;
+}
+.c3{
+	top: 32px;
+    left: 15px;
+}
